@@ -1,0 +1,28 @@
+.pagrindas {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    /* z-index:1; */
+
+}
+
+.fonas {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: blue;
+    opacity: 0;
+    /*  */
+    
+
+}
+
+.fonas:hover {
+    /* z-index:1; */
+    opacity: 0.5; 
+    transition: 500ms ease-in;
+    
+}

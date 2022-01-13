@@ -1,0 +1,6 @@
+.row {
+    width:100%;
+}
+.col {
+    display: inline-block;
+    width: 49.9%;
